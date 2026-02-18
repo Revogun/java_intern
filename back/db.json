@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "1234",
+      "role": "USER"
+    }
+  ],
+  "expenses": [
+    {
+      "amount": "100",
+      "description": "Travel",
+      "userId": "1",
+      "date": "2026-02-10T13:23:52.792Z",
+      "id": "2271"
+    },
+    {
+      "id": "62e5",
+      "amount": "199",
+      "description": "shop",
+      "category": "Shopping",
+      "userId": "1",
+      "date": "2026-02-10T13:29:47.032Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Food",
+      "userId": 1
+    },
+    {
+      "id": "2",
+      "name": "Travel",
+      "userId": 1
+    }
+  ]
+}
